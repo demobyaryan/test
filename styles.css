@@ -1,29 +1,38 @@
-body{
+body {
   text-align: center;
-  height:100%;
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  margin: .5%;
 }
 
 .css-input {
-     padding: 1%;
-     font-size: 16px;
-     border-width: 1px;
-     border-color: #CCCCCC;
-     background-color: #FFFFFF;
-     color: #000000;
-     border-style: solid;
-     border-radius: 48px;
-     text-align: center;
-     rgba(66,66,66,.75);
-     text-shadow: 0px 0px 5px rgba(66,66,66,.100);
-     margin: .5%;
-}
- .css-input:focus {
-     outline:none;
+  font-family: 'Roboto Slab', serif;
+  padding: 1%;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 48px;
+  text-align: center;
+  rgba(66, 66, 66, .75);
+  text-shadow: 0px 0px 5px rgba(66, 66, 66, .100);
+  margin: .5%;
+  width: 30%;
 }
 
-button{
+.css-input:focus {
+  outline: none;
+}
+
+button {
+  font-family: 'Roboto Slab', serif;
   margin: 1%;
--webkit-border-radius: 60;
+  -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
   font-family: Arial;
@@ -33,24 +42,42 @@ button{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border: none;
+  width: 30%;
 }
+
 button:hover {
   background: #3784b8;
   text-decoration: none;
 }
 
-.container{
+.container {
   padding: 1%;
   margin-top: 13%;
   height: 60%;
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  .container{
-    margin-top: 55%;
+@media (max-width: 500px) {
+  .container {
+    padding: 1%;
+    margin-top: 47%;
+    width: 100%;
   }
-  .css-input{
+
+  .css-input {
+    width: 90%;
     padding: 3%;
+    margin: 2%;
+  }
+
+  button {
+    width: 90%;
+    padding: 5%;
+    margin: 2%;
+  }
+
+  h1 {
+    padding: 3%;
+    margin: 2%;
   }
 }
